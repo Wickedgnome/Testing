@@ -1,0 +1,25 @@
+// Is this a comment?
+print("I guess so.")
+//Now to explore Swift:
+
+let num: Int = 10 // This is a constant, and cannot be changed
+print(num)
+
+var variable: Int = 9 //This si a var, so you can change it
+print(variable)
+variable = variable - 7
+print(variable)
+
+var words: String = "Hello" //This is a string
+print(words)
+words += " my name is Joeseph"+"!"
+print(words)
+
+let coordinates: (Int,Int) = (2, 3) //This is a  a Tuple
+print(coordinates.0)
+let y = coordinates.1
+
+let coordinates3D = (x: 2, y: 3, z: 1) //Inferred as ints
+let (x, y, z) = coordinates3D // This makes 3 constants, x,y, and z
+
+let (x, y, _) = coordinates3D // This ignores a value, an _ is used for this
